@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="up">
+        <p class="text">Between 1 and 20</p>
+        <button class="btnAgain">Again?</button>
+    </header>
+    <div class="center">
+        <svg style="fill: #FFB184;" xmlns="http://www.w3.org/2000/svg" width="130" height="180" viewBox="0 0 179 236"
+            fill="none">
+            <g filter="url(#filter0_d_5_576)">
+                <path
+                    d="M103.229 127.14H72.9967C72.9967 120.96 73.418 115.518 74.2607 110.812C75.1737 106.037 76.7186 101.753 78.8956 97.9611C81.0726 94.1689 84.0221 90.6576 87.7441 87.4272C91.0447 84.6884 93.8888 82.055 96.2765 79.5269C98.6641 76.9987 100.49 74.4355 101.754 71.8372C103.018 69.2388 103.65 66.4649 103.65 63.5154C103.65 59.8637 103.123 56.8791 102.07 54.5617C101.087 52.2442 99.5771 50.5237 97.5405 49.4001C95.5742 48.2062 93.0812 47.6093 90.0615 47.6093C87.6036 47.6093 85.2862 48.2062 83.1092 49.4001C81.0024 50.5939 79.2819 52.4549 77.9476 54.983C76.6133 57.4409 75.8759 60.7064 75.7355 64.7795H40.0258C40.2364 54.3159 42.5539 45.8186 46.9781 39.2876C51.4725 32.6864 57.4417 27.8759 64.8856 24.8562C72.3998 21.7663 80.7917 20.2213 90.0615 20.2213C100.314 20.2213 109.128 21.8014 116.501 24.9616C123.875 28.1217 129.528 32.8268 133.461 39.0769C137.394 45.2568 139.36 52.8763 139.36 61.9354C139.36 67.9748 138.201 73.2417 135.884 77.7361C133.636 82.1603 130.582 86.3036 126.719 90.166C122.927 93.9582 118.678 98.0313 113.973 102.385C109.9 105.967 107.126 109.619 105.652 113.341C104.177 116.992 103.369 121.592 103.229 127.14ZM68.6778 159.163C68.6778 154.106 70.5037 149.893 74.1554 146.522C77.8071 143.081 82.5474 141.361 88.3761 141.361C94.2048 141.361 98.945 143.081 102.597 146.522C106.249 149.893 108.074 154.106 108.074 159.163C108.074 164.219 106.249 168.468 102.597 171.909C98.945 175.279 94.2048 176.965 88.3761 176.965C82.5474 176.965 77.8071 175.279 74.1554 171.909C70.5037 168.468 68.6778 164.219 68.6778 159.163Z"
+                    fill="#FFB184" />
+            </g>
+            <defs>
+                <filter id="filter0_d_5_576" x="0.965157" y="0.691044" width="177.455" height="234.865"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                    <feOffset dy="19.5303" />
+                    <feGaussianBlur stdDeviation="19.5303" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.210031 0 0 0 0 0.0633751 0 0 0 0 0.65 0 0 0 0.4 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5_576" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5_576" result="shape" />
+                </filter>
+            </defs>
+        </svg>
+        <p class="number" title="Click to generate random number.">?</p>
+        <p class="guess-text">Start Thinking!</p>
+        <span class="score">20</span>
+    </div>
+
+    <div class="below">
+        <p class="heading-text">Guess My Number</p>
+        <div class="buttons">
+            <input type="text" name="input" class="input">
+            <button class="btnCheck">Check !</button>
+        </div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
